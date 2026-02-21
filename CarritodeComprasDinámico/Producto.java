@@ -34,3 +34,4 @@ public class Producto {
         return super.equals(obj);
     }
 }
+// cuando ArrayList se llena el equals crea un nuevo arreglo con el 50% mas del espacio anterior   

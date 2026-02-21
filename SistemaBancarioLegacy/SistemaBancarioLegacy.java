@@ -15,18 +15,18 @@ public class SistemaBancarioLegacy {
 
         System.out.println(logTransacciones);
 
-  //se bloquean los objetos para no cruzar hilos 
+  // múltiples hilos acceden simultáneamente a una colección y todos los datos dentro del vector son sincronizados intrínsecamente
 
   int cantidad =1000000;
 
-  Vector<Double> vector= new Vector<>();
+  Vector<String> vector= new Vector<>();
   long inicioVector= System.currentTimeMillis();
   for (int i=0; i<1000000;i++){
     
   }
 
 
-  ArrayList<Double> arrayList= new ArrayList<>();
+  ArrayList<String> arrayList= new ArrayList<>();
   long inicioArray= System.currentTimeMillis();
   for (int i=0; i<1000000; i++){
 

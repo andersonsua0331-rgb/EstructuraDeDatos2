@@ -21,3 +21,4 @@ public class Inventario {
     }
     
 }
+// el get que no recorre todo el codigo es inventario.get("A001") Porque usa el mecanismo interno de hash para acceder directamente al valor asociado a la clave

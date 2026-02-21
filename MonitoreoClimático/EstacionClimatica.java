@@ -4,7 +4,7 @@ public class EstacionClimatica {
     public static void main(String[] args) {
         
     
-    double [] temperaturas = new double[24];
+    double [] temperaturas = new double[23];
     for (int i = 0;  i < temperaturas.length; i++) {
         temperaturas[i] = Math.random() * 40;
     }

@@ -18,3 +18,4 @@ public class NormalizadorID {
     System.out.println("id invertido:" + idInvertido);
     }
 }
+// La inmutabilidad se evidencia al imprimir las referencias de memoria con System.identityHashCode() los valores obtenidos para idSucio e idLimpio son diferentes, lo que demuestra que cada operación generó un nuevo objeto en memoria. Esto confirma que String es inmutable, ya que no modifica el objeto original, sino que crea uno nuevo con cada cambio
